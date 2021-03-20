@@ -5,7 +5,6 @@ import javax.validation.constraints.Pattern;
 
 
 public class EmployeeDto {
-	
 	private long id;
 	@NotBlank(message = "Name is mandatory")
 	private String name;

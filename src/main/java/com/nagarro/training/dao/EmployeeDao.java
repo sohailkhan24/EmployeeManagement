@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.nagarro.training.entity.Employee;
 
-
 @Repository
 public interface EmployeeDao extends CrudRepository<Employee, Long> {
 
